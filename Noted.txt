@@ -1,0 +1,11 @@
+Setup sysctl.conf :
+vim /etc/sysctl.conf
+adding the following line :
+vm.max_map_count=262144
+fs.file-max=65536
+And then checking the configuration :
+sudo sysctl -p
+----------------------------
+Default Login :
+Username : admin
+Pass : admin
